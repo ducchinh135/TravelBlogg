@@ -1,4 +1,4 @@
-let commentApi = "https://travel-blog-mindx.herokuapp.com/post_travel/3";
+let commentApi = "https://travelblog-json-server.vercel.app/post_travel/3";
 import Comment from "../js/Comments.js"
 alert("Vào đc rồi");
 function start() {

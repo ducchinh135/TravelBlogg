@@ -1,4 +1,4 @@
-let commentApi = "https://travel-blog-mindx.herokuapp.com/post_travel/1";
+let commentApi = "https://travelblog-json-server.vercel.app/post_travel/1";
 import Comment from "../js/Comments.js"
 function start() {
     getCmts(renderCmts);

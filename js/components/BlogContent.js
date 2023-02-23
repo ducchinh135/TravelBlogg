@@ -22,7 +22,7 @@ class BlogContent extends BaseComponent {
         </div>
         `;
         this._shadowRoot.innerHTML = template;
-        let postApi = "https://travel-blog-mindx.herokuapp.com/post_travel/";
+        let postApi = "https://travelblog-json-server.vercel.app/post_travel/";
         let contentBlog = this._shadowRoot.querySelector('.inforBlog--container')
         function start() {
             getPosts(renderPosts);
